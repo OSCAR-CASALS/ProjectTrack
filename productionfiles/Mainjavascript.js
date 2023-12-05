@@ -74,27 +74,30 @@ class TheClass extends React.Component{
                         <h1>Profile</h1>
                         <br />
                         <div style={{textAlign: "right"}}>
-                            <img src="https://lh3.googleusercontent.com/pw/ADCreHecWaZedSmZfzR7TT98qXJA05HKHmQtCjR7z7ejqPHqSUO6HV8EBZEviw4CUTgKENKIdonFvuV1pqgrr2HnCRwZl3iXQoimNHmBu_YFtvYnUc_WJZOaCEedYLPoD4SwqrJNGibjlfudD4zwJ-fRNv4=w1314-h985-s-no-gm?authuser=0" alt="Profile Picture" style={{height:"40%", width:"40%", float:"left"}}/><div style={{backgroundColor: "rgba(0, 0, 0, 0.6)", width:"54%", float: "right", padding: "0.1vw", textAlign: "center", fontSize: "2vw"}}><h3 style={{fontSize: "2vw"}}>Description</h3><p>I am a bioinformatician passionate about programming who recently graduated from the Bioinformatics degree organised by universities: ESCI-UPF, UPC, UB and UAB.
+                            <img src="https://lh3.googleusercontent.com/pw/ADCreHecWaZedSmZfzR7TT98qXJA05HKHmQtCjR7z7ejqPHqSUO6HV8EBZEviw4CUTgKENKIdonFvuV1pqgrr2HnCRwZl3iXQoimNHmBu_YFtvYnUc_WJZOaCEedYLPoD4SwqrJNGibjlfudD4zwJ-fRNv4=w1314-h985-s-no-gm?authuser=0" alt="Profile Picture" style={{height:"40%", width:"40%", float:"left"}}/>
+                            <div style={{backgroundColor: "rgba(0, 0, 0, 0.6)", width:"54%", float: "right", padding: "1vw", textAlign: "center", fontSize: "small"}}>
+                                <h3 style={{fontSize: "large"}}>Description</h3>
+                                <p>I am a bioinformatician passionate about programming who recently graduated from the Bioinformatics degree organised by universities: ESCI-UPF, UPC, UB and UAB.
                                     Ever since I was 14 years old I have been programming in my spare time therefore I am constantly improving my skills.</p>
 
                                 <p>On this website you can check some of the projects I have done on my spare time or for university.</p>
-                                <h3 style={{fontSize: "2vw"}}>Training</h3>
+                                <fieldset style={{border: "none", backgroundColor: "white", width: "82%", margin: "auto"}}></fieldset>
+                                <h3 style={{fontSize: "large"}}>Training</h3>
                                 <p>Bioinformatics university degree organised by:</p>
-                                <ul style={{textAlign: "left"}}>
-                                    <li style={{listStyleType: "none", transform: "translate(10%,0)"}}>- ESCI-UPF</li>
-                                    <li style={{listStyleType: "none", transform: "translate(10%,0)"}}>- Universitat Autonoma de Barcelona(UAB)</li>
-                                    <li style={{listStyleType: "none", transform: "translate(10%,0)"}}>- Universitat Politècnica de Catalunya(UPC)</li>
-                                    <li style={{listStyleType: "none", transform: "translate(10%,0)"}}>- Universitat de Barcelona(UB)</li>
+                                <ul style={{textAlign: "center"}}>
+                                    <li style={{listStyleType: "none"}}>- ESCI-UPF</li>
+                                    <li style={{listStyleType: "none"}}>- Universitat Autonoma de Barcelona(UAB)</li>
+                                    <li style={{listStyleType: "none"}}>- Universitat Politècnica de Catalunya(UPC)</li>
+                                    <li style={{listStyleType: "none"}}>- Universitat de Barcelona(UB)</li>
                                 </ul>
                                 <p>Bachillerato científico at Centre d'Estudis Roca</p>
+                                <fieldset style={{border: "none", backgroundColor: "white", width: "82%", margin: "auto"}}></fieldset>
+                                <h3 style={{fontSize: "large", textAlign: "center"}}>Contact Information:</h3>
+                                <p>casals.400010@gmail.com</p>
+                                <p>Phone:616 77 08 36</p>
                             </div>
                         </div>
-                        <div style={{float: "left", fontSize: "2vw", textAlign: "left"}}>
-                            <h3 style={{fontSize: "2vw", backgroundColor: "rgba(0, 0, 0, 0.6)", textAlign: "center"}}>Contact Information:</h3>
-                            <ul style={{backgroundColor: "rgba(0, 0, 0, 0.6)", padding: "2vw", textAlign: "center"}}>
-                                <li style={{listStyleType: "none"}}>Gmail: casals.400010@gmail.com</li>
-                                <li style={{listStyleType: "none"}}>Phone Number: 616 77 08 36</li>
-                            </ul>
+                        <div style={{float: "right", fontSize: "small", textAlign: "left", width: "54%"}}>
                         </div>
                     </div>
                     </div>);
