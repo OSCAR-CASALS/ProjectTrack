@@ -61,6 +61,7 @@ class TheClass extends React.Component{
                             </div>
                         </div>
                     </div>
+                    <br />
                 </div>);
             case "Profile":
                 return(<div>
