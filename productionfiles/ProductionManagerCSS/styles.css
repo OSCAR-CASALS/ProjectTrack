@@ -1,13 +1,8 @@
-*{
-    max-width: 100%;
-    max-height: 100%;
-}
-
 html{
     background-image: url("https://lh3.googleusercontent.com/pw/ADCreHeCX4fHqO983CzbdCEaBUKYKP95yM-2Wb__cAQT5mBGJJjeOcMm29KL1FMvAiRLvpqU7KFr-OiZSiaN-l4pp98N47R085yDEd0WN8lCbLcHza0a3IhqOvpWP18gTD4z52QclZgucBCoico9foij_8w=w1473-h985-s-no-gm?authuser=0");
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     min-width: 100%;
     min-height: 100%;
