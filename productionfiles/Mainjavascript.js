@@ -20,6 +20,7 @@ class TheClass extends React.Component{
                         <button id="Profile" onClick={this.handleButton} value="Profile">Profile</button>
                         <button id="PersProjects" onClick={this.handleButton} value="PersProj" class="ClickedBut">Personal Projects</button>
                         <button id="AcProjects" onClick={this.handleButton} value="AcProjects">Academic Projects</button>
+                        <button id="AcProjects" onClick={this.handleButton} value="ProfExperience">Profesional experience</button>
                     </div>
                     <br />
                     <div class="Mainest_main">
@@ -69,6 +70,7 @@ class TheClass extends React.Component{
                         <button id="Profile" onClick={this.handleButton} value="Profile" class="ClickedBut">Profile</button>
                         <button id="PersProjects" onClick={this.handleButton} value="PersProj">Personal Projects</button>
                         <button id="AcProjects" onClick={this.handleButton} value="AcProjects">Academic Projects</button>
+                        <button id="AcProjects" onClick={this.handleButton} value="ProfExperience">Profesional experience</button>
                     </div>
                     <br />
                     <div class="Mainest_main">
@@ -108,6 +110,7 @@ class TheClass extends React.Component{
                         <button id="Profile" onClick={this.handleButton} value="Profile">Profile</button>
                         <button id="PersProjects" onClick={this.handleButton} value="PersProj">Personal Projects</button>
                         <button id="AcProjects" onClick={this.handleButton} value="AcProjects" class="ClickedBut">Academic Projects</button>
+                        <button id="AcProjects" onClick={this.handleButton} value="ProfExperience">Profesional experience</button>
                     </div>
                     <br />
                     <div class="Mainest_main">
@@ -129,6 +132,27 @@ class TheClass extends React.Component{
                         </div>
                     </div>
                 </div>)
+            case "ProfExperience":
+                return(
+                    <div>
+                        <div class="ButHeader">
+                            <button id="Profile" onClick={this.handleButton} value="Profile">Profile</button>
+                            <button id="PersProjects" onClick={this.handleButton} value="PersProj">Personal Projects</button>
+                            <button id="AcProjects" onClick={this.handleButton} value="AcProjects">Academic Projects</button>
+                            <button id="AcProjects" onClick={this.handleButton} value="ProfExperience" class="ClickedBut">Profesional experience</button>
+                        </div>
+                        <br />
+                        <div class="Mainest_main">
+                            <h1>Profesional Experience</h1>
+                            <div class="Projects">
+                                <div class="Project">
+                                    <img src="https://media.licdn.com/dms/image/C560BAQH4YYFRZ46Rag/company-logo_200_200/0/1631432590225/admit_therapeutics_logo?e=2147483647&v=beta&t=uyWfqTsPamOiVny-MdO3L2nuXielYz02Nhm4m190FiY" class="WebLogo" alt="FinalDegreeProject Logo" />
+                                    <p class="WebTitle">Admit Theraperutics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )
         }
     }
 }
