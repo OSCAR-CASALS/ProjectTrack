@@ -1,3 +1,5 @@
+screen.orientation.lock("portrait");
+
 class TheClass extends React.Component{
     constructor(props){
         super(props)
