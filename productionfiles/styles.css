@@ -41,6 +41,7 @@ h1, h2{
     min-height: 34vh;
     max-width: 28vw;
     min-width: 28vw;
+    margin-bottom: 2vh;
     /*background-color: rgb(128, 48, 48);*/
     /*background-color: rgb(0, 0, 240);*/
     background-color: black;

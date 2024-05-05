@@ -24,3 +24,6 @@ def HeartFailure(request):
 
 def FinalDegreeProject(request):
 		return render(request, 'FinalDegreeProject.html')
+
+def Three_Bullets(request):
+	return render(request, '3_Bullets.html')

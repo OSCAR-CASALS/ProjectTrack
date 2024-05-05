@@ -47,6 +47,12 @@ class TheClass extends React.Component{
                                     <p class="WebTitle">Horror Stories</p>
                                 </a>
                             </div>
+                            <div class="Project">
+                                <a href ={Location + "/3_Bullets"} target="_blank" rel="noopener noreferrer">
+                                    <img src="https://github.com/OSCAR-CASALS/3_Bullets/blob/main/sprites/Recharge.png?raw=true" class="WebLogo" />
+                                    <p class="WebTitle">3_Bullets</p>
+                                </a>
+                            </div>
                         </div>
                         <h3 style={{textAlign: "center"}}>Apps/Programs</h3>
                         <div class="Projects">

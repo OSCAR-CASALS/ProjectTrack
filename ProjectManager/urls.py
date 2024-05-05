@@ -9,5 +9,6 @@ urlpatterns = [
     path('SpaceInvaders/', views.SpaceInvaders, name='SpaceInvaders'),
     path('SmithWaterman/', views.SmithWaterman, name='SmithWaterman'),
     path('HeartFailure/', views.HeartFailure, name='HeartFailure'),
-    path('FinalDegreeProject/', views.FinalDegreeProject, name='FinalDegreeProject')
+    path('FinalDegreeProject/', views.FinalDegreeProject, name='FinalDegreeProject'),
+    path('3_Bullets/', views.Three_Bullets, name='3_Bullets')
 ]
