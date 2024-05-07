@@ -153,11 +153,22 @@ class TheClass extends React.Component{
                         <div class="Mainest_main">
                             <h1>Profesional Experience</h1>
                             <br />
+                            <h3 style={{textAlign: "center"}}>Full stack developer</h3>
+                            <h5 style={{textAlign: "center"}}>Click to visit the websites I have worked on</h5>
+                            <div class="Projects">
+                                <div class="Project">
+                                    <a href="https://polxavier.github.io/DataTeva" target="_blank" rel="noopener noreferrer">
+                                        <p class="WebTitle"></p>
+                                        <img src="https://polxavier.github.io/DataTeva/Logo.png" class="WebLogo" alt="TevaData Logo" />
+                                    </a>
+                                </div>
+                            </div>
+                            <h3 style={{textAlign: "center"}}>Bioinformatician</h3>
                             <div class="Projects">
                                 <div class="Project">
                                     <p class="WebTitle"></p>
-                                    <img src="https://media.licdn.com/dms/image/C560BAQH4YYFRZ46Rag/company-logo_200_200/0/1631432590225/admit_therapeutics_logo?e=2147483647&v=beta&t=uyWfqTsPamOiVny-MdO3L2nuXielYz02Nhm4m190FiY" class="WebLogo" alt="FinalDegreeProject Logo" />
-                                    <p class="WebTitle"></p>
+                                    <img src="https://media.licdn.com/dms/image/C560BAQH4YYFRZ46Rag/company-logo_200_200/0/1631432590225/admit_therapeutics_logo?e=2147483647&v=beta&t=uyWfqTsPamOiVny-MdO3L2nuXielYz02Nhm4m190FiY" class="WebLogo" alt="Admit Therapeutics Logo" />
+                                    <p class="WebTitle" style={{fontSize: "12px"}}></p>
                                 </div>
                             </div>
                         </div>
