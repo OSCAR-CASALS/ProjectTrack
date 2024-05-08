@@ -84,14 +84,17 @@ class TheClass extends React.Component{
                     <div class="Mainest_main">
                         <h1>Profile</h1>
                         <br />
-                        <div style={{textAlign: "right"}}>
-                            <img src="https://lh3.googleusercontent.com/pw/ADCreHecWaZedSmZfzR7TT98qXJA05HKHmQtCjR7z7ejqPHqSUO6HV8EBZEviw4CUTgKENKIdonFvuV1pqgrr2HnCRwZl3iXQoimNHmBu_YFtvYnUc_WJZOaCEedYLPoD4SwqrJNGibjlfudD4zwJ-fRNv4=w1314-h985-s-no-gm?authuser=0" alt="Profile Picture" style={{height:"40%", width:"40%", float:"left"}}/>
-                            <div style={{backgroundColor: "rgba(0, 0, 0, 0.6)", width:"54%", float: "right", padding: "1vw", textAlign: "center", fontSize: "small"}}>
+                        <div style={{textAlign: "center"}}>
+                            <img src="https://lh3.googleusercontent.com/pw/ADCreHecWaZedSmZfzR7TT98qXJA05HKHmQtCjR7z7ejqPHqSUO6HV8EBZEviw4CUTgKENKIdonFvuV1pqgrr2HnCRwZl3iXQoimNHmBu_YFtvYnUc_WJZOaCEedYLPoD4SwqrJNGibjlfudD4zwJ-fRNv4=w1314-h985-s-no-gm?authuser=0" alt="Profile Picture" style={{height:"40%", width:"40%"}}/>
+                            <br />
+                            <br />
+                            <div style={{backgroundColor: "rgba(0, 0, 0, 0.6)", minWidth:"80%", padding: "2%", textAlign: "center", fontSize: "small", margin: "auto"}}>
                                 <h3 style={{fontSize: "large"}}>Description</h3>
-                                <p>I am a bioinformatician passionate about programming who recently graduated from the Bioinformatics degree organised by universities: ESCI-UPF, UPC, UB and UAB.
-                                    Ever since I was 14 years old I have been programming in my spare time therefore I am constantly improving my skills.</p>
+                                <p>I am a recently graduated bioinformatician and full stack developer passionate about programming and eager to gain professional experience,</p>
 
-                                <p>On this website you can check some of the projects I have done on my spare time or for university.</p>
+                                <p>as many others, my programing journey starts when I was 14 with curiosity about how websites work and slowly learning how fun and useful programing is.</p>
+
+                                <p>On this web you can check some of the projects I do on my spare time, some of my academic work, and my profesional experience.</p>
                                 <fieldset style={{border: "none", backgroundColor: "white", width: "82%", margin: "auto"}}></fieldset>
                                 <h3 style={{fontSize: "large"}}>Training</h3>
                                 <p>Bioinformatics university degree organised by:</p>
@@ -108,7 +111,7 @@ class TheClass extends React.Component{
                                 <p>Phone:616 77 08 36</p>
                             </div>
                         </div>
-                        <div style={{float: "right", fontSize: "small", textAlign: "left", width: "54%"}}>
+                        <div style={{fontSize: "small", width: "54%"}}>
                         </div>
                     </div>
                     </div>);
@@ -158,17 +161,16 @@ class TheClass extends React.Component{
                             <div class="Projects">
                                 <div class="Project">
                                     <a href="https://polxavier.github.io/DataTeva" target="_blank" rel="noopener noreferrer">
-                                        <p class="WebTitle"></p>
-                                        <img src="https://polxavier.github.io/DataTeva/Logo.png" class="WebLogo" alt="TevaData Logo" />
+                                        <img src="https://polxavier.github.io/DataTeva/Logo.png" class="WebLogo" alt="TevaData Logo" style={{height: "70%"}}/>
+                                        <p class="WebTitle" style={{marginBottom: "0"}}>Made his website</p>
                                     </a>
                                 </div>
                             </div>
                             <h3 style={{textAlign: "center"}}>Bioinformatician</h3>
                             <div class="Projects">
                                 <div class="Project">
-                                    <p class="WebTitle"></p>
-                                    <img src="https://media.licdn.com/dms/image/C560BAQH4YYFRZ46Rag/company-logo_200_200/0/1631432590225/admit_therapeutics_logo?e=2147483647&v=beta&t=uyWfqTsPamOiVny-MdO3L2nuXielYz02Nhm4m190FiY" class="WebLogo" alt="Admit Therapeutics Logo" />
-                                    <p class="WebTitle" style={{fontSize: "12px"}}></p>
+                                    <img src="https://media.licdn.com/dms/image/C560BAQH4YYFRZ46Rag/company-logo_200_200/0/1631432590225/admit_therapeutics_logo?e=2147483647&v=beta&t=uyWfqTsPamOiVny-MdO3L2nuXielYz02Nhm4m190FiY" class="WebLogo" alt="Admit Therapeutics Logo" style={{height: "70%"}} />
+                                    <p class="WebTitle" style={{marginBottom: "0"}}>Junior</p>
                                 </div>
                             </div>
                         </div>
